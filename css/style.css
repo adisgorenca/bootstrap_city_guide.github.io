@@ -1,0 +1,70 @@
+body {
+    background-color:#8aaae5;
+}
+.flex-div {
+    height:100%;
+}
+.div, .flex-div {
+    margin:15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:silver;
+    background-color:white;
+    font-family:"century schoolbook";
+    color:#8aaae5;
+}
+.jumbotron h1 {
+    font-size:100px;    
+}
+img, iframe {
+    width:100%;
+    height:100%;
+}
+.active {
+    background-color:#efefef;    
+}
+.text3 {
+    font-size:30px;
+    padding:5px; 
+}
+.text2 {
+    font-size:30px;
+    padding:5px;
+    text-decoration:underline;
+    text-align: center;
+}
+.text {
+    font-size:35px;
+    padding:5px;
+}
+.row-m {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .row-sm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row-md {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .row-lg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.text2 p {
+    min-height:80px;
+}
